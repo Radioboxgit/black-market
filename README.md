@@ -1,7 +1,7 @@
 # Black-Market 
 # Python #requests  #beautifulsoup #pandas
 Repo for Naira to dollar,euro,pounds parallel market scraped from
-[This link](https://nairablackmarket.com/page/Black-market-exchange%20rates)
+[Nairablackmarket](https://nairablackmarket.com/page/Black-market-exchange%20rates)
 
 The project returns the tickers as well as the source of the exchange 
 
