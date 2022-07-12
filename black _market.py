@@ -67,14 +67,14 @@ print(len(df_list))
 today = date.today().strftime("%d/%m/%Y")
 market_period={'Morning':0, 'Afternoon':1,'Evening':2}
 black_markets={'Date':today}
+
+# get all the amrket period tickers
 for key,value in market_period.items():
   try:
     black_markets[key]=process_table(df_list[value])
   except:
     print('market for time duration {}'.format(key))
 
-# markets=process_table(df_list[0])
 print(black_markets)
 
-
-# file_dump=json.dumps(black_markets)
+file_dump=json.dumps(black_markets)
